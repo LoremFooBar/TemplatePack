@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "nbgv": {
+      "version": "3.5.108",
+      "commands": [
+        "nbgv"
+      ]
+    },
+    "jetbrains.resharper.globaltools": {
+      "version": "2022.1.2",
+      "commands": [
+        "jb"
+      ]
+    }
+  }
+}

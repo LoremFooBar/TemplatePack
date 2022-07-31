@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet properies">
+    <!-- Needed to prevent NU5128 warning -->
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+
+    <!-- Enable NuGet to handle files with names that start with "." -->
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+
+    <PackageType>Template</PackageType>
+    <PackageId>LoremFooBar.TemplatePack</PackageId>
+
+    <Authors>LoremFooBar</Authors>
+    <Description>Templates for new projects based on best practices and personal opinions.</Description>
+    <PackageTags>dotnet-new;dotnet new;templates;nuget;package;best-practices;best practices</PackageTags>
+    <PackageProjectUrl>https://github.com/LoremFooBar/TemplatePack</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Template Pack Properties">
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="/"/>
+    <None Include="README.md" Pack="true" PackagePath="/"/>
+    <Content Include="templates/**/*"
+             Exclude="templates/**/bin/**;templates/**/obj/**;templates/**/packages.lock.json;templates/**/.idea/**"/>
+    <Compile Remove="**\*"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" PrivateAssets="all" Version="3.5.108"/>
+    <PackageReference Include="DotNet.ReproducibleBuilds" PrivateAssets="all" Version="1.1.1"/>
+  </ItemGroup>
+
+</Project>
