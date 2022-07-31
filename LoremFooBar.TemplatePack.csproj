@@ -18,6 +18,7 @@
     <Authors>LoremFooBar</Authors>
     <Description>Templates for new projects based on best practices and personal opinions.</Description>
     <PackageTags>dotnet-new;dotnet new;templates;nuget;package;best-practices;best practices</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/LoremFooBar/TemplatePack</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
