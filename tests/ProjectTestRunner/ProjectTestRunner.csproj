@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="JunitXml.TestLogger" Version="3.0.114" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.abstractions" Version="2.0.3" />
