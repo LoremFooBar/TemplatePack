@@ -10,18 +10,18 @@
       },
       "FluentAssertions": {
         "type": "Direct",
-        "requested": "[6.8.0, )",
-        "resolved": "6.8.0",
-        "contentHash": "NfSlAG97wMxS48Ov+wQEhJITdn4bKrgtKrG4sCPrFBVKozpC57lQ2vzsPdxUOsPbfEgEQTMtvCDECxIlDBfgNA==",
+        "requested": "[6.11.0, )",
+        "resolved": "6.11.0",
+        "contentHash": "aBaagwdNtVKkug1F3imGXUlmoBd8ZUZX8oQ5niThaJhF79SpESe1Gzq7OFuZkQdKD5Pa4Mone+jrbas873AT4g==",
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.4.0"
         }
       },
       "JetBrains.Annotations": {
         "type": "Direct",
-        "requested": "[2022.1.0, )",
-        "resolved": "2022.1.0",
-        "contentHash": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig=="
+        "requested": "[2022.3.1, )",
+        "resolved": "2022.3.1",
+        "contentHash": "11nsS3+lFICGkztVs9PP2NRItxf9fF+qD6xEW/T0YGto52zj07wseUeBdMAU1ah9HNVTDZyRC1u4NWdtJScwhw=="
       },
       "LoremFooBar.SimpleGwt.NUnit": {
         "type": "Direct",
@@ -44,9 +44,9 @@
       },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
-        "requested": "[3.5.108, )",
-        "resolved": "3.5.108",
-        "contentHash": "+1Zn/jrrbBS1MVK20W8d8g4nEREPuZ6IHDTmtqlJiNeGXN45Iou0IPe5hykbLAVyWfnoN3bPCDBIVjeAfoMsWQ=="
+        "requested": "[3.5.119, )",
+        "resolved": "3.5.119",
+        "contentHash": "x8k4zV6YKZA5Rr810439lG9NngdbyPtFv0QpIYz32m1Im59kvSbEHO8gKGZoNvsfZSquayjEDUCa8acbut372g=="
       },
       "NUnit": {
         "type": "Direct",
