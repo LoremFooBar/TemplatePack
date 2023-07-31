@@ -125,7 +125,7 @@ namespace ProjectTestRunner
                     WriteLine(" ");
 
                     if (!current.VerificationSuccess) {
-                        Assert.False(true, current.FailureMessage);
+                        Assert.Fail(current.FailureMessage);
                     }
                 }
 
@@ -139,7 +139,7 @@ namespace ProjectTestRunner
                 WriteLine(" ");
 
                 if (!current.VerificationSuccess) {
-                    Assert.False(true, current.FailureMessage);
+                    Assert.Fail(current.FailureMessage);
                 }
 
                 results.Add(current);
