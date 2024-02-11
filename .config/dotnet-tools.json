@@ -13,6 +13,18 @@
       "commands": [
         "jb"
       ]
+    },
+    "microsoft.templateengine.authoring.cli": {
+      "version": "8.0.101",
+      "commands": [
+        "dotnet-template-authoring"
+      ]
+    },
+    "run-script": {
+      "version": "0.5.0",
+      "commands": [
+        "r"
+      ]
     }
   }
 }

@@ -10,8 +10,14 @@
 
 ### Installation
 
+with .NET 6.0 or below:
 ```shell
 dotnet new -i LoremFooBar.TemplatePack
+```
+
+with .NET 8.0 or above:
+```shell
+dotnet new install LoremFooBar.TemplatePack
 ```
 
 ## Create a NuGet Package Project

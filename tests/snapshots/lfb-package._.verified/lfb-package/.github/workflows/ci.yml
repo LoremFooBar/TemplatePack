@@ -1,4 +1,4 @@
-name: CI
+﻿name: CI
 
 on:
   push:
@@ -14,13 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # deep checkout for NerdBank.GitVersioning
 
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: |
-            8.0.x
             6.0.x
+            8.0.x
 
       - name: Restore dependencies
         run: dotnet restore --locked-mode
@@ -28,8 +28,8 @@ jobs:
       - name: Build
         run: dotnet build --no-restore -c Release
 
-      - name: Snapshot testing
-        run: dotnet r test 
+      - name: Test
+        run: dotnet test --no-build -c Release "--logger:junit;LogFilePath=./test-results/results-{framework}.xml"
 
       - name: Pack
         run: dotnet pack --no-build -c Release -o pack

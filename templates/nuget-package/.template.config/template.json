@@ -13,6 +13,16 @@
   "sourceName": "MyPackageName",
   "sources": [
     {
+      "exclude": [
+        ".idea/**",
+        ".template.config/**",
+        "*.DotSettings*",
+        "inspect.xml",
+        "**/bin/**",
+        "**/obj/**",
+        "tests/*/test-results",
+        "**/packages.lock.json"
+      ],
       "modifiers": [
         {
           "rename": {
