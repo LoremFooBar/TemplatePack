@@ -19,9 +19,9 @@
       },
       "JetBrains.Annotations": {
         "type": "Direct",
-        "requested": "[2022.3.1, )",
-        "resolved": "2022.3.1",
-        "contentHash": "11nsS3+lFICGkztVs9PP2NRItxf9fF+qD6xEW/T0YGto52zj07wseUeBdMAU1ah9HNVTDZyRC1u4NWdtJScwhw=="
+        "requested": "[2023.3.0, )",
+        "resolved": "2023.3.0",
+        "contentHash": "PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA=="
       },
       "LoremFooBar.SimpleGwt.NUnit": {
         "type": "Direct",
@@ -44,9 +44,9 @@
       },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
-        "requested": "[3.5.119, )",
-        "resolved": "3.5.119",
-        "contentHash": "x8k4zV6YKZA5Rr810439lG9NngdbyPtFv0QpIYz32m1Im59kvSbEHO8gKGZoNvsfZSquayjEDUCa8acbut372g=="
+        "requested": "[3.6.133, )",
+        "resolved": "3.6.133",
+        "contentHash": "VZWMd5YAeDxpjWjAP/X6bAxnRMiEf6tES/ITN0X5CHJgkWLLeHGmEALivmTAfYM6P+P/3Szy6VCITUAkqjcHVw=="
       },
       "NUnit": {
         "type": "Direct",
@@ -59,9 +59,9 @@
       },
       "NUnit.Analyzers": {
         "type": "Direct",
-        "requested": "[3.6.1, )",
-        "resolved": "3.6.1",
-        "contentHash": "RKP9tpKfl3DmRgUDGgh3XM3XzeLMrCXXMZm6vm1nMsObZ6vtQL1L9NrK7+oZh1jWearvNsbMis2+AIOY3NFmow=="
+        "requested": "[3.10.0, )",
+        "resolved": "3.10.0",
+        "contentHash": "+F2deTIQms+hJNzuoO68zgP1ftH61+meBx8iMn/90owv+eZpFTyQberapJ87jBm8f22/mwQnWufemjEVIvW11g=="
       },
       "NUnit3TestAdapter": {
         "type": "Direct",
