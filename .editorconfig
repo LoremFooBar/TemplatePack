@@ -7,6 +7,6 @@ indent_style = space
 indent_size = 4
 tab_width = 4
 
-[*.{json, xml, config, md, csproj, yaml, yml, Build.props}]
+[*.{json,xml,config,md,csproj,yaml,yml,Build.props}]
 indent_size = 2
 tab_width = 2

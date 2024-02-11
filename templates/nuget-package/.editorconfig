@@ -551,7 +551,6 @@ resharper_html_linebreak_before_elements = body, div, p, form, h1, h2, h3
 resharper_html_max_blank_lines_between_tags = 2
 resharper_html_max_line_length = 120
 resharper_html_pi_attribute_style = on_single_line
-#resharper_html_space_before_self_closing = false
 resharper_html_wrap_lines = true
 resharper_ignore_space_preservation = false
 resharper_include_prefix_comment_in_indent = false
@@ -692,7 +691,6 @@ resharper_resx_linebreak_before_elements =
 resharper_resx_max_blank_lines_between_tags = 0
 resharper_resx_max_line_length = 2147483647
 resharper_resx_pi_attribute_style = do_not_touch
-#resharper_resx_space_before_self_closing = false
 resharper_resx_wrap_lines = false
 resharper_resx_wrap_tags_and_pi = false
 resharper_resx_wrap_text = false
@@ -912,7 +910,6 @@ resharper_xmldoc_linebreak_before_elements = summary, remarks, example, returns,
 resharper_xmldoc_max_blank_lines_between_tags = 0
 resharper_xmldoc_max_line_length = 120
 resharper_xmldoc_pi_attribute_style = do_not_touch
-#resharper_xmldoc_space_before_self_closing = false
 resharper_xmldoc_wrap_lines = true
 resharper_xmldoc_wrap_tags_and_pi = true
 resharper_xmldoc_wrap_text = true
@@ -923,7 +920,6 @@ resharper_xml_linebreak_before_elements =
 resharper_xml_max_blank_lines_between_tags = 2
 resharper_xml_max_line_length = 120
 resharper_xml_pi_attribute_style = do_not_touch
-#resharper_xml_space_before_self_closing = false
 resharper_xml_wrap_lines = true
 resharper_xml_wrap_tags_and_pi = true
 resharper_xml_wrap_text = false
@@ -3333,10 +3329,9 @@ resharper_xaml_xaml_xamarin_forms_data_type_and_binding_context_type_mismatched_
 resharper_xaml_x_key_attribute_disallowed_highlighting = error
 resharper_xunit_xunit_test_with_console_output_highlighting = warning
 
-[*.{json, xml, config, md, csproj, yaml, yml, Build.props}]
+[*.{json,xml,config,md,csproj,yaml,yml,Build.props}]
 indent_size = 2
 tab_width = 2
-#space_before_self_closing = false
 
 # ConfigureAwait support
 [src/**.cs]
