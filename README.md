@@ -10,12 +10,6 @@
 
 ### Installation
 
-with .NET 6.0 or below:
-```shell
-dotnet new -i LoremFooBar.TemplatePack
-```
-
-with .NET 8.0 or above:
 ```shell
 dotnet new install LoremFooBar.TemplatePack
 ```
@@ -43,7 +37,7 @@ dotnet new lfb-package --name YourName.YourPackageName -o YourPackageName
 To check for template updates, run:
 
 ```shell
-dotnet new --update-check
+dotnet new update --check-only
 ```
 
 Output will contain the update command for each available update.
@@ -51,5 +45,5 @@ Output will contain the update command for each available update.
 To update all templates, run:
 
 ```shell
-dotnet new --update-apply
+dotnet new update
 ```
