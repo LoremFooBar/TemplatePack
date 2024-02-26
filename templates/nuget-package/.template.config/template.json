@@ -20,7 +20,7 @@
         "inspect.xml",
         "**/bin/**",
         "**/obj/**",
-        "tests/*/test-results",
+        "tests/*/test-results/**",
         "**/packages.lock.json"
       ],
       "modifiers": [
