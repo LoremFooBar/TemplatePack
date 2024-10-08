@@ -15,7 +15,7 @@
       ]
     },
     "microsoft.templateengine.authoring.cli": {
-      "version": "8.0.102",
+      "version": "8.0.403",
       "commands": [
         "dotnet-template-authoring"
       ]
